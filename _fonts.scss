@@ -1,0 +1,33 @@
+$mainFont: sans-serif, Verdana, Arial;
+
+@mixin navText {
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+}
+@mixin bodyText {
+    font-family: Verdana, Arial;
+    font-size: 16px;
+    font-weight: 200;
+}
+@mixin tableText {
+    font-family: verdana, Arial;
+    font-size: 16px;
+    font-weight: 200;
+}  
+@mixin footerTextOne {
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+}
+@mixin footerTextTwo{
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 200;
+    color:#00E;
+    justify-content: center;
+}

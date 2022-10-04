@@ -1,0 +1,54 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 200px;
+    padding: 0 200px;
+    margin: 0 0 0 195px;
+}
+.content-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0 15px;
+    margin-right: -20px;
+    column-gap: 20px;
+}
+
+.tableOne{
+    box-sizing: border-box;
+    background-color:rgb(238, 238, 255);
+    border-radius: 5px;
+    width: 350px;
+    height: 220px;
+}
+.tableTwo{
+    background-color:rgb(238, 238, 255);
+    border-radius: 5px;
+    width: 350px;
+    height: 220px;
+}
+tr{
+    @include tableText;
+    border: 1px solid #ddd;
+    // border-bottom: -3px solid rgb(102, 101, 101);
+    padding: 10px 15px;
+}
+tr :hover{
+    text-decoration: underline;
+    color: $btnHover;
+    background-color: #f7f7ff;
+    cursor: pointer;
+}
+td{
+    text-align: center;
+    color: $pryColor;
+    padding: 16px 10px;
+    border-bottom: 1px solid #ddd;
+}
+tr:last-child td{
+    border-bottom: none;
+}

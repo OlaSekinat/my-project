@@ -1,0 +1,68 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.boody{
+    background-color: #DDE !important;
+}
+.welcome{
+    display: grid;
+    flex-direction: row;
+}
+.welcome-note{
+    padding: 0 200px;
+    margin: 0 0 0 195px;
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: $mainFont;
+    font-weight: 500;
+}
+h2{
+    font-size: 26px;
+    font-family: $mainFont;
+    font-weight: 500;
+    padding: 0 200px;
+    margin: 0 0 0 200px;
+    margin-top: 10px;
+}
+.welcome_note{
+    @include bodyText;
+    text-align: left;
+    margin-left: 10px;
+}
+// .welcome{
+//     .welcome-note{
+//         .searchbox {
+//             text-align: center;
+//             font-family: $mainFont;
+//             font-size: small;
+//             padding-left: 50px; 
+//         }
+//     }
+// }
+.bottom-note{
+    margin-right: -50px;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 300;
+} 
+
+
+.adPage{
+    border: 1px solid white;
+    background-color:#DDE;
+    width: 350px;
+    height: 220px;
+    // padding: 150px;
+    padding: 0 200px 0 0;
+    margin: 0 195px 0 0 ;
+}
+
+.empty{
+    padding: 40px 0;
+    background-color:#DDE;
+}
+
+    

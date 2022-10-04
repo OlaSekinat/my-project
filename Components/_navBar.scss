@@ -1,0 +1,76 @@
+@use "../fonts"  as *;
+@use "../color" as *;
+
+header{
+    .topNav {
+        @include navText;
+        display: flex;
+        flex-direction: row;
+        background-color: $terColor;
+        padding: 5px 25px;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+.topNav{
+    text-align: center;
+}
+
+// nav{
+//     display: flex !important;
+// }
+
+.Alpha{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    margin-left: -450px;
+
+}
+
+.alpha {
+  padding: 3px;
+  margin: 7px;
+  font-weight: 600;
+}
+
+.Alpha :hover{
+    border: none;
+    background-color: $btnColor;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.searchBar {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: -400px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.searchBar{
+    margin-right: -200px;
+}
+
+.btnOne{
+    align-items: center;
+    width: auto;
+}
+.btnTwo{
+    align-items: center;
+    width: auto; 
+}
+span{
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+header{
+    align-items: center;
+}

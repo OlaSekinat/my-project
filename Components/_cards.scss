@@ -1,0 +1,56 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.Cards{
+    margin: 0 auto;
+    max-width: 800px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     font-family: $mainFont;
+     padding: 0 150px 0 180px ;
+     margin: 0 0 0 195px;
+}
+.card{
+    // box-shadow: 0 0 3px rgba(0, 0, 0, 0, 1);
+    margin-right: 20px;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+.card_image{
+    width: 100%;
+    display: block;
+
+}
+.container{
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+    margin-top: -15px;
+    background: #dde;
+    justify-content:space-around;
+}
+p{
+    margin-left: -25px;
+    text-align: center;
+
+}
+// p:first-of-type {
+//     margin-top: 0;
+// }
+// p:last-of-type {
+//     margin-bottom: 0;
+// }
+
+a{
+    color: #00E;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center ;
+}
+a :hover{
+    color: $btnHover;
+    text-decoration: underline;
+    cursor: pointer;
+}
+

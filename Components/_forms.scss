@@ -1,0 +1,12 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.topinput{
+    // width: 80px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+
+}
+.downinput{
+    width: 35%;
+}

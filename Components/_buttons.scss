@@ -1,0 +1,47 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.btnOne{   
+    width: 85px;
+    background-color: $btnColor;
+    border: 1px solid #6464c5;
+    border-radius:0 4px 4px 0;
+    padding: 5px;
+}
+.btnTwo{
+    width: 40px;
+    background-color: $btnColor;
+    border: 1px solid #6464c5;
+    border-radius:0 4px 4px 0;
+    padding: 5px;
+}
+.searchTwo{
+    display: flex;
+}
+.button{
+    display: flex;
+}
+.button :hover {
+    background-color: $btnHover;
+    cursor:pointer;
+}
+.btnTwo :hover{
+    background-color: $btnHover;
+}
+.topinput{
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    padding: 6px 12px;
+}
+.downinput{
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    padding: 6px 12px;
+    width: 35%;
+}
+
+
+
+
+
+

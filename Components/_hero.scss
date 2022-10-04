@@ -1,0 +1,11 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.hero{
+    border: 1px solid $secColor;
+    background-color:$secColor;
+    width: 80%;
+    height: 40%;
+    padding: 150px;
+    margin-right: 50px;
+}

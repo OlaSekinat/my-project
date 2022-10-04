@@ -1,0 +1,52 @@
+@use "../fonts" as *;
+@use "../color" as *;
+
+.footerOne{
+    display: flex;
+    background-color: #99c;
+    border:1px solid #6464c5;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerTwo{
+    display: flex;
+    background-color: #dde;
+    border-color: #8383c1;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 20px;
+    @include footerTextOne;
+}
+.foot-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 20px;
+    @include footerTextTwo;
+}
+.footnote {
+    color: black;
+    text-align: center;
+    font-size: small;
+    font-family: $mainFont;
+    background-color: #dde;
+} 
+.foot-one :hover, .foot-two :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
